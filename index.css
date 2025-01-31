@@ -1,0 +1,94 @@
+/* 전체 페이지 스타일 */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* 컨테이너 스타일 */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* 제목 스타일 */
+  h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+  }
+  
+  /* 입력 필드 스타일 */
+  input[type="file"],
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  /* 버튼 스타일 */
+  button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* 재료 목록 스타일 */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #ecf0f1;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  /* 레시피 카드 스타일 */
+  .recipe-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recipe-card h3 {
+    color: #2c3e50;
+    margin-top: 0;
+  }
+  
+  /* 반응형 디자인 */
+  @media (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+    
+    button {
+      width: 100%;
+    }
+  }
+  
